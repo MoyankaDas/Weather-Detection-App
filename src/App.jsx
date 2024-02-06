@@ -1,9 +1,9 @@
 import Weather from "./Weather.jsx";
-import "./Weather.css"
+import "./index.css"
 function App() {
   
   return (
-    <div className="main">
+    <div>
       <Weather/>
     </div>
   )
