@@ -1,7 +1,7 @@
 import Input from "./Input.jsx";
 import Output from "./Output.jsx";
 import {useState} from 'react';
-import "./Weather.css";
+
 
 export default function Weather(){
     let [cityInfo,setCityInfo]=useState({
@@ -18,7 +18,7 @@ export default function Weather(){
         setCityInfo(city);
     }
     return (
-        <div className="main">
+        <div>
             <Input handleCityInfo={handleCityInfo}/>
             <Output city={cityInfo}/>
         </div>
