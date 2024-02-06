@@ -17,7 +17,7 @@ export default function Weather(){
         setCityInfo(city);
     }
     return (
-        <div>
+        <div style={{backgroundImage:"url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE3Klx5d8Liw8Wtd-iKK8wRaji_nUKUTf_snar54r0yA&s')",backgroundSize:"cover",fontFamily:"Gill Sans,Gill Sans MT,Calibri,Trebuchet MS,sans-serif"}}>
             <Input handleCityInfo={handleCityInfo}/>
             <Output city={cityInfo}/>
         </div>
