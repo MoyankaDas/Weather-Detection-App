@@ -1,7 +1,7 @@
 import Weather from "./Weather.jsx";
-import "./index.css"
+import "./style.css";
+
 function App() {
-  
   return (
     <div>
       <Weather/>
